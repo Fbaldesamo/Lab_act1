@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="lab_act1.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="lab_act1.js"></script>
+<body>
+
+<style type="text/css">
+<!-- css shortcut  -->
+	
+
+</style>
+<center><img src="company.png";></center>
+<h1> Event Registration</h1>
+<h2 id="caption">Events</h2>
+
+
+
+<p><b>Global Health Council:</b> Partner's Forum: Unmet Needs in Reproductive Health</p>
+<div class="row">
+  <div class="column" >
+    
+    <p>Registration:</p>
+  </div>
+
+  <div class="column">
+    
+    <p>Friday- 07/13/2007 $135.00  <select label="qty_1" id="Qty_1"   onChange="compute_1(this.value)">
+		<option >Qty</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+		<option value="10">10</option>
+	</select>
+</p>
+  </div>
+
+  <div class="column"  >
+    
+    <p><input type="text"  id="ansval" size="10" maxlength="30"></p>
+  </div>
+</div>
+<p>
+	
+	
+	
+<br><br> <b>Global Health Council:</b> Policy Series on PEPFAR Re-Authorization<br>
+
+<div class="row">
+  <div class="column" >
+    
+    <p>Registration <br><br> <b>Grand Total:</b> </p>
+  </div>
+  <div class="column" >
+   
+    <p>Monday- 07/16/2007 $128.00 
+
+
+
+<select  onChange="compute_2(this.value)"  >
+
+		<option>Qty</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+		<option value="10">10</option>
+	</select>
+
+</p>
+  </div>
+  <div class="column" >
+    
+    <p><input type="text" id="ansval_1" size="10" maxlength="30"><br><br> <input type="text" id="total_2"  size="10" maxlength="30"  disabled></p>
+  </div>
+</div>
+
+</p>
+
+<h2 id="caption_1">Personal information</h2>
+<div class="row">
+  <div class="column" >
+    
+    <p>
+
+    <b>E-mail:*</b><br>
+    <b>Firstname:*</b><br>
+    <b>Lastname:*</b><br>
+    <b>Address Line 1:*</b><br>
+    <b>Town:*</b><br>
+    <b>Marital Status:</b><br>
+    <b>Gender:</b>
+
+
+
+
+
+</p>
+  </div>
+  <div class="column" >
+    
+    <p>
+
+    <input type="text" id="email" size="30" maxlength="30"><br>
+	
+	<input type="text" id="fname" size="9" maxlength="30"><br>
+	
+	<input type="text" id="lname" size="11" maxlength="30"><br>
+	
+	<input type="text" id="address" size="13" maxlength="30"><br>
+
+	<select>
+		
+		<option value="calamba ">Calamba</option>
+		<option value="alabang ">Alabang</option>
+		<option value="santotomas">Santo Tomas</option>
+		<option value="tanuan">Tanuan</option>
+		<option value="lipa">Lipa</option>
+		<option value="malvar">Malvar</option>
+		<option value="sanjuan">San Juan</option>
+	</select>
+
+	<br>
+
+	<select>
+		
+		<option value="single">Single</option>
+		<option value="married">Married</option>
+		<option value="divorce">Divorce</option>
+
+	</select>
+
+	<br>
+
+	<select>
+		
+		<option value="male">Male</option>
+		<option value="female">Female</option>
+	</select>
+
+	<br>
+
+	<input type="button" value="submit" size="60 " onclick="checkvalid()" >
+</p>
+
+ </div>
+
+</body>
+</html>
